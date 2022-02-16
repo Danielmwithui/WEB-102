@@ -1,0 +1,72 @@
+/*This is how we comment in css*/
+
+
+/*Table of contents
+1.Nav bar
+2.slider
+3.About us*/
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    height: 5000px;
+}
+
+
+/*================================
+            Nav bar
+==================================*/
+
+.navbar {
+    background-color: #2b2c2c !important;
+    padding: 25px 0;
+}
+
+.navbar .nav-item {
+    font-size: 14px;
+    font-weight: 600px;
+    margin: 0 20px;
+}
+
+.navbar .nav-item.nav-link {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.navbar.navbar-nav .dropdown.dropdown-menu a:hover {
+    background: #e0a80d;
+}
+
+
+/*=================
+        slider
+    ================*/
+
+.slider {
+    background: url('image/antelope.jpeg') center center no-repeat;
+    height: calc(100vh-92x);
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.slider .particels {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.animated-headlines.cd-headline span {
+    font-size: 50px;
+    font-family: 'Daniel', sans-serif!important;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: darkgoldenrod;
+}
+
+.slider .left-content.hello {
+    font-size: ;
+}
